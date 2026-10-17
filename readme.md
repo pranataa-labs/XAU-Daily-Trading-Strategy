@@ -79,7 +79,7 @@ Sistem ini dirancang khusus bagi individu dengan keterbatasan waktu pantau grafi
 
 1. **Pukul 13:45 – 14:00 WIB**:
    - Buka folder `xau_daily_trading_strategy`.
-   - Klik 2x berkas `pasang_posisi_xau.bat`.
+   - Klik 2x berkas `open_position.bat`.
    - Program otomatis mengambil harga *real-time* dan menghitung level tiket.
 2. **Salin 2 Tiket Pending Order ke MT4 / MT5**:
    - Tiket 1: **BUY STOP** (Entry, Stop Loss Midpoint, Take Profit 1:2.0).
@@ -95,12 +95,11 @@ Sistem ini dirancang khusus bagi individu dengan keterbatasan waktu pantau grafi
 
 ```
 xau_daily_trading_strategy/
-├── readme.md                           # Laporan & Dokumentasi Riset Kuantitatif
-├── xau_daily_trading_strategy.ipynb    # Jupyter Notebook Analisis Lengkap + Visualisasi Render
-├── pasang_posisi_xau.bat               # Eksekutor 1-Klik Windows (Pukul 13:45 WIB)
-├── sinyal_xau_daily.py                 # Algoritma Ekstraksi Data Pasar & Sizing Lot
-├── riwayat_sinyal_xau.csv              # Log Audit Tiket Sinyal Harian
-└── panduan_penggunaan.txt              # Standard Operating Procedure (SOP) Ringkas
+├── readme.md                           # Comprehensive Quantitative Research & Documentation
+├── xau_daily_trading_strategy.ipynb    # Full Jupyter Notebook Research, Geometry & Equity Charts
+├── open_position.bat                   # 1-Click Windows Execution Launcher (13:45 WIB)
+├── xau_daily_signal.py                 # Live Market Feed Extraction & Position Sizing Engine
+└── usage_guide.txt                     # Operational Execution Standard Operating Procedure (SOP)
 ```
 
 ---

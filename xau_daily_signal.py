@@ -273,27 +273,6 @@ def print_execution_tickets(orders, date_str):
     print("    3. Upon fill of one side, immediately cancel the opposite pending order.")
     print("    4. If neither order fills by 22:00 WIB, cancel all pending orders.")
     print("=" * 82)
-    
-    # Audit log
-    log_file = "riwayat_sinyal_xau.csv"
-    now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    log_data = {
-        "Waktu_Generate": now_str,
-        "Tanggal_Sesi": date_str,
-        "Asian_High": orders["asian_high"],
-        "Asian_Low": orders["asian_low"],
-        "Asian_Range_USD": orders["asian_range_usd"],
-        "Midpoint": orders["midpoint"],
-        "Buy_Entry": orders["buy_entry"],
-        "Buy_SL": orders["buy_sl"],
-        "Buy_TP": orders["buy_tp"],
-        "Sell_Entry": orders["sell_entry"],
-        "Sell_SL": orders["sell_sl"],
-        "Sell_TP": orders["sell_tp"]
-    }
-    df_log = pd.DataFrame([log_data])
-    df_log.to_csv(log_file, mode="a", header=not os.path.exists(log_file), index=False)
-    print(f"\n[*] Execution parameters logged to: {log_file}")
 
 def main():
     df_multi, asia, last_date = fetch_market_feeds()
