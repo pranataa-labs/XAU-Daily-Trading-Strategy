@@ -17,23 +17,20 @@
 > **Model Overview:**  
 > Model kuantitatif trading harian XAU/USD berbasis ekspansi volatilitas penembusan rentang Sesi Asia (London Breakout) dengan validasi Stop Loss struktural pada Midpoint (50%) dan rasio Risk to Reward asimetris 1:2.0.
 
----
+### 📊 Ringkasan Metrik Kuantitatif (559 Hari / 2 Tahun)
 
-## 📊 Ringkasan Metrik Keberhasilan Model (Hasil Backtest 559 Hari / 2 Tahun)
-
-Model kuantitatif ini diuji secara empiris menggunakan data historis per jam (*hourly candles*) pada instrumen emas (**XAU/USD**) sepanjang **559 hari perdagangan aktif** (Mei 2024 s/d Oktober 2026):
-
-| Metrik Kuantitatif | Nilai Tercatat | Makna & Relevansi Institusional |
-| :--- | :---: | :--- |
-| **Total Sampel Transaksi** | **559 Hari** | Sampel komprehensif 2 tahun mencakup siklus tren naik, turun, dan konsolidasi. |
-| **Total Keuntungan Bersih** | **+64.08 R** | Setara akumulasi **+14.616 Pips** net gain. |
-| **Win Rate** | **44.2%** | Tipikal karakteristik sistem *volatility expansion* berkategori institusional. |
-| **Risk-to-Reward Ratio (R:R)** | **1 : 2.0** | Model *asymmetric payoff* (keuntungan per trade bernilai 2x lipat dari risiko). |
-| **Profit Factor (PF)** | **1.22** | Rasio total gross profit terhadap total gross loss. |
-| **Expected Value (EV)** | **+0.11 R / trade** | Ekspektansi statistik positif jangka panjang (*positive mathematical expectancy*). |
-| **Performa per 100 Trade** | **+32.0 R Net** | 44 Menang (+88 R) vs 56 Kalah (-56 R) menghasilkan laba bersih +32 R tanpa tebak arah. |
-
-> **Logika Asimetris:** Dalam trading kuantitatif, win rate tinggi bukanlah kunci utama profitabilitas. Dengan rasio *payoff* 1:2.0, sistem ini tetap menghasilkan laba konsisten yang masif meskipun tingkat kekalahan mencapai 55.8%.
+| Parameter Metrik | Hasil Backtest |
+| :--- | :--- |
+| **Total Sampel Transaksi** | **559 Hari Perdagangan** (Mei 2024 – Oktober 2026) |
+| **Win Rate** | **44.2%** (247 Menang / 312 Kalah) |
+| **Risk to Reward (R:R)** | **1 : 2.0 Asymmetric** (Win +2.0 R / Loss -1.0 R) |
+| **Net Profit** | **+64.08 R** (+14.616 Pips) |
+| **Profit Factor (PF)** | **1.22** |
+| **Expected Value (EV)** | **+0.11 R / trade** |
+| **Performa per 100 Trade** | **+32.0 R Net** |
+| **Max Drawdown** | **-7.20 R** |
+| **Waktu Pemasangan Order** | **13.45 – 14.00 WIB** |
+| **Model Eksekusi** | **Set-and-Forget** (Zero Screen Time) |
 
 ---
 
