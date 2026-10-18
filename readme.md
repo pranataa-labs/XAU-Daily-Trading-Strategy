@@ -1,11 +1,21 @@
-# XAU/USD Daily Systematic Trading Strategy
-### 🏆 +64.08 R (+14,616 Pips) Net Profit | 44.2% Win Rate | 1:2.0 Asymmetric Risk-Reward | Profit Factor 1.22
+# ⚡ XAU/USD Daily Systematic Trading Strategy
+### Quantitative London Breakout Volatility Expansion Model (559 Trading Days)
 
-[![Backtest Period](https://img.shields.io/badge/Backtest-559_Trading_Days-blue.svg?style=for-the-badge)](https://github.com/)
-[![Net Profit](https://img.shields.io/badge/Net_Profit-%2B64.08_R_(%2B14%2C616_Pips)-success.svg?style=for-the-badge)](https://github.com/)
-[![Risk-Reward](https://img.shields.io/badge/Payoff_Ratio-1:2.0_Asymmetric-orange.svg?style=for-the-badge)](https://github.com/)
-[![Execution Model](https://img.shields.io/badge/Execution-Zero_Screen_Time_Set_&_Forget-purple.svg?style=for-the-badge)](https://github.com/)
-[![Asset](https://img.shields.io/badge/Underlying-Gold_(XAU/USD)-gold.svg?style=for-the-badge)](https://github.com/)
+<div align="left">
+
+![Asset](https://img.shields.io/badge/Asset-XAU%2FUSD%20(Gold)-ffd700?style=for-the-badge)
+![Timeframe](https://img.shields.io/badge/Timeframe-H1%20%2F%20Daily-blue?style=for-the-badge)
+![Net Profit](https://img.shields.io/badge/Net%20Profit-%2B64.08%20R%20(%2B14%2C616%20Pips)-2ca02c?style=for-the-badge)
+![Win Rate](https://img.shields.io/badge/Win%20Rate-44.2%25-green?style=for-the-badge)
+![Profit Factor](https://img.shields.io/badge/Profit%20Factor-1.22-success?style=for-the-badge)
+![Risk:Reward](https://img.shields.io/badge/R%3AR-1%3A2.0%20Asymmetric-orange?style=for-the-badge)
+![Execution](https://img.shields.io/badge/Execution-Zero%20Screen%20Time%20(Set%20%26%20Forget)-purple?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+</div>
+
+> **Model Overview:**  
+> Model kuantitatif trading harian XAU/USD berbasis ekspansi volatilitas penembusan rentang Sesi Asia (London Breakout) dengan validasi Stop Loss struktural pada Midpoint (50%) dan rasio Risk to Reward asimetris 1:2.0.
 
 ---
 
